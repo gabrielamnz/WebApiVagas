@@ -81,3 +81,6 @@ C:\Users\gmnzf\Documents\GitHub\WebApiVagas\WebApiVagas\bin\Microsoft.CodeDom.Pr
 C:\Users\gmnzf\Documents\GitHub\WebApiVagas\WebApiVagas\obj\Debug\WebApiVagas.csproj.CopyComplete
 C:\Users\gmnzf\Documents\GitHub\WebApiVagas\WebApiVagas\obj\Debug\WebApiVagas.dll
 C:\Users\gmnzf\Documents\GitHub\WebApiVagas\WebApiVagas\obj\Debug\WebApiVagas.pdb
+C:\Users\gmnzf\Documents\GitHub\WebApiVagas\WebApiVagas\obj\Debug\WebApiVagas.csprojAssemblyReference.cache
+C:\Users\gmnzf\Documents\GitHub\WebApiVagas\WebApiVagas\obj\Debug\WebApiVagas.Migrations.Criando_banco.resources
+C:\Users\gmnzf\Documents\GitHub\WebApiVagas\WebApiVagas\obj\Debug\WebApiVagas.csproj.GenerateResource.cache

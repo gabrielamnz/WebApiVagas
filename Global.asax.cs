@@ -7,6 +7,8 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.Http;
+using Newtonsoft.Json;
+using System.Globalization;
 
 namespace WebApiVagas
 {
@@ -17,7 +19,14 @@ namespace WebApiVagas
             // Code that runs on application startup
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);            
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings =
+                new JsonSerializerSettings
+                {
+                    Culture = CultureInfo.GetCultureInfo("pt-br"),
+                    DateFormatString = "dd/MM/yyyy"
+                };
         }
     }
 }

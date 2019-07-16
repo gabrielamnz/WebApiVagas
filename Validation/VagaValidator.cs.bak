@@ -1,5 +1,5 @@
-﻿using FluentValidation;
-using WebApiVagas.Models.Entities;
+﻿using WebApiVagas.Models.Entities;
+using FluentValidation;
 
 namespace WebApiVagas.Validation
 {
